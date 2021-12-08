@@ -356,12 +356,8 @@ void turbine()
 
 void drawLine(float[] p1, float[] p2)
 {
-    // for 2 points
-    for (int i = 0; i < 2; ++i) 
-    {
-        // create line between coords of both
-        line(p1[0], p1[1], p1[2], p2[0], p2[1], p2[2]);
-    }
+    // create line between coords of both
+    line(p1[0], p1[1], p1[2], p2[0], p2[1], p2[2]);
 }
 
 // creates a line between points in succession
